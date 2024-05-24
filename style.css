@@ -1,0 +1,168 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.in {
+    background-image: url(./img/back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+h1 {
+    font-family: 'Amita', serif;
+    font-size: 100px;
+    color: #6962AD;
+}
+
+#intro p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 50px;
+    color: #6962AD;
+}
+
+#resume{
+    background-color: #FAE7F3;
+}
+
+#resume img {
+    border-radius: 50%;
+}
+
+h2 {
+    font-family: 'Signika Negative', sans-serif;
+    color: #6962AD;
+    font-size: 50px;
+}
+
+#resume p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+}
+
+
+
+#projects {
+    background-color: #FAE7F3;
+    
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.container1 div {
+    display: flex;
+    justify-content: center;
+}
+
+.spec {
+    grid-column: span 3;
+}
+
+.spec2 {
+    display: flex;
+    justify-content: center;
+}
+.spec2 p {
+    font-size: 30px;
+}
+
+#projects img {
+    height: 50px;
+}
+
+
+
+#projects img:hover {
+    transform: scale(1.5);
+}
+
+#projects p {
+    font-size: 30px;
+}
+
+@media (max-width: 1000px) {
+    .in {
+        height: 540px;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .container1 div {
+        padding: 10px;
+    }
+    .t1 {
+        order: 1;
+    }
+    .l2 {
+        order: 2;
+    }
+    .t2 {
+        order: 3;
+    }
+    .l3 {
+        order: 4;
+    }
+    .t3 {
+        order: 5;
+    }
+}
+
+#contact {
+    background-color: #FAE7F3;
+}
+
+#contact p {
+    font-family:  'Signika Negative', sans-serif;
+}
+
+.dots {
+    font-size: 40px;
+    color: #6962AD80
+
+}
+
+button:hover{
+    background: linear-gradient(300deg, #6962AD, #96E9C6, #6C22A6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+#footer {
+    background-color: #6962AD;
+}
+#footer p {
+    color: white;
+}
+#footer a {
+    color: #6C22A6;
+}

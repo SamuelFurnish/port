@@ -1,0 +1,39 @@
+.contentwrap {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+#img {
+    text-align: center;
+}
+
+.right {
+    text-align: center;
+}
+
+body {
+    background-color: #FAE7F3;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h2 {
+    background-color: mediumaquamarine;
+}
+
+h3 {
+    margin-left: 15px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #6962AD;
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+}
+
